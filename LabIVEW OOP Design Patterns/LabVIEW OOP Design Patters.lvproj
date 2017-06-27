@@ -19,6 +19,42 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Adapter Pattern" Type="Folder">
+			<Item Name="Media Player Example" Type="Folder">
+				<Item Name="Advanced Media Player" Type="Folder">
+					<Item Name="AdvancedMediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Advanced Media Player/AdvancedMediaPlayer.lvclass"/>
+					<Item Name="Mp4Player.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Mp4Player/Mp4Player.lvclass"/>
+					<Item Name="VlcPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/VlcPlayer/VlcPlayer.lvclass"/>
+				</Item>
+				<Item Name="Media Player" Type="Folder">
+					<Item Name="AudioPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Audio Player/AudioPlayer.lvclass"/>
+					<Item Name="MediaAdapter.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Adapter/MediaAdapter.lvclass"/>
+					<Item Name="MediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Player/MediaPlayer.lvclass"/>
+				</Item>
+				<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Decorator Pattern" Type="Folder">
+			<Item Name="Starbuzz Coffee Example" Type="Folder">
+				<Item Name="Beverages" Type="Folder">
+					<Item Name="Beverage.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Beverage Class/Beverage.lvclass"/>
+					<Item Name="DarkRoast.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/DarkRoast/DarkRoast.lvclass"/>
+					<Item Name="Decaf.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Decaf/Decaf.lvclass"/>
+					<Item Name="Espresso.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Espresso/Espresso.lvclass"/>
+					<Item Name="HouseBlend.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/HouseBlend/HouseBlend.lvclass"/>
+					<Item Name="MintTea.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/MintTea/MintTea.lvclass"/>
+				</Item>
+				<Item Name="Decorator" Type="Folder">
+					<Item Name="CondimentDecorator.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/CondimentDecorator/CondimentDecorator.lvclass"/>
+					<Item Name="Milk.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Milk/Milk.lvclass"/>
+					<Item Name="Mocha.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Mocha/Mocha.lvclass"/>
+					<Item Name="Soy.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Soy/Soy.lvclass"/>
+					<Item Name="Vanilla.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Vanilla/Vanilla.lvclass"/>
+				</Item>
+				<Item Name="Starbuzz Coffee.asta" Type="Document" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.asta"/>
+				<Item Name="Starbuzz Coffee.vi" Type="VI" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Factory Method Pattern" Type="Folder">
 			<Item Name="Application Class" Type="Folder">
 				<Item Name="Application.lvclass" Type="LVClass" URL="../Factory Method Pattern/Application Class/Application/Application.lvclass"/>
@@ -35,25 +71,6 @@
 				<Item Name="ProductB.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductB.lvclass"/>
 			</Item>
 			<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
-		</Item>
-		<Item Name="Starbuzz Coffee Example" Type="Folder">
-			<Item Name="Beverages" Type="Folder">
-				<Item Name="Beverage.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Beverage Class/Beverage.lvclass"/>
-				<Item Name="DarkRoast.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/DarkRoast/DarkRoast.lvclass"/>
-				<Item Name="Decaf.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Decaf/Decaf.lvclass"/>
-				<Item Name="Espresso.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Espresso/Espresso.lvclass"/>
-				<Item Name="HouseBlend.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/HouseBlend/HouseBlend.lvclass"/>
-				<Item Name="MintTea.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/MintTea/MintTea.lvclass"/>
-			</Item>
-			<Item Name="Decorator" Type="Folder">
-				<Item Name="CondimentDecorator.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/CondimentDecorator/CondimentDecorator.lvclass"/>
-				<Item Name="Milk.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Milk/Milk.lvclass"/>
-				<Item Name="Mocha.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Mocha/Mocha.lvclass"/>
-				<Item Name="Soy.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Soy/Soy.lvclass"/>
-				<Item Name="Vanilla.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Vanilla/Vanilla.lvclass"/>
-			</Item>
-			<Item Name="Starbuzz Coffee.asta" Type="Document" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.asta"/>
-			<Item Name="Starbuzz Coffee.vi" Type="VI" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>

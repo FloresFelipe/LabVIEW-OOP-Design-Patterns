@@ -73,6 +73,22 @@
 			</Item>
 			<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
 		</Item>
+		<Item Name="Observer Pattern" Type="Folder">
+			<Item Name="Observer Pattern Example" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Observers" Type="Folder">
+					<Item Name="Observer.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observer/Observer.lvclass"/>
+					<Item Name="ForecastDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/ForecastDisplay/ForecastDisplay.lvclass"/>
+					<Item Name="GeneralDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/General Display/GeneralDisplay.lvclass"/>
+					<Item Name="StatisticsDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/StatisticsDisplay/StatisticsDisplay.lvclass"/>
+				</Item>
+				<Item Name="Observables" Type="Folder">
+					<Item Name="Observable.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observable/Observable.lvclass"/>
+					<Item Name="WeatherData.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Weather Station/WeatherData.lvclass"/>
+				</Item>
+				<Item Name="ObserverDemo.vi" Type="VI" URL="../Observer Pattern/Observer Pattern Example/ObserverDemo.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Singleton Pattern" Type="Folder">
 			<Item Name="Singleton Pattern Example" Type="Folder">
 				<Item Name="Single Object" Type="Folder">

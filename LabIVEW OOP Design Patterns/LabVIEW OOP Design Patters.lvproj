@@ -35,6 +35,16 @@
 				<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Chain of Responsibility Pattern" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Chain of Responsibility Pattern Demo.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain of Responsibility Pattern Demo Class/Chain of Responsibility Pattern Demo.lvclass"/>
+			<Item Name="Chain.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain Class/Chain.lvclass"/>
+			<Item Name="Numbers.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Numbers Class/Numbers.lvclass"/>
+			<Item Name="Add.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Add Class/Add.lvclass"/>
+			<Item Name="Subtract.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Subtract Class/Subtract.lvclass"/>
+			<Item Name="Multiply.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Multiply Class/Multiply.lvclass"/>
+			<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
+		</Item>
 		<Item Name="Decorator Pattern" Type="Folder">
 			<Item Name="Starbuzz Coffee Example" Type="Folder">
 				<Item Name="Beverages" Type="Folder">

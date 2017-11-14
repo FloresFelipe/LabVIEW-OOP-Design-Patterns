@@ -35,6 +35,32 @@
 				<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Builder Pattern" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Item" Type="Folder">
+				<Item Name="Burger" Type="Folder">
+					<Item Name="Burger.lvclass" Type="LVClass" URL="../Builder Pattern/Burger Class/Burger.lvclass"/>
+					<Item Name="VegBurger.lvclass" Type="LVClass" URL="../Builder Pattern/VegBurger Class/VegBurger.lvclass"/>
+					<Item Name="ChickenBurger.lvclass" Type="LVClass" URL="../Builder Pattern/ChickenBurger Class/ChickenBurger.lvclass"/>
+				</Item>
+				<Item Name="Cold Drink" Type="Folder">
+					<Item Name="ColdDrink.lvclass" Type="LVClass" URL="../Builder Pattern/ColdDrink Class/ColdDrink.lvclass"/>
+					<Item Name="Pepsi.lvclass" Type="LVClass" URL="../Builder Pattern/Pepsi Class/Pepsi.lvclass"/>
+					<Item Name="Coke.lvclass" Type="LVClass" URL="../Builder Pattern/Coke Class/Coke.lvclass"/>
+				</Item>
+				<Item Name="Item.lvclass" Type="LVClass" URL="../Builder Pattern/Item Class/Item.lvclass"/>
+			</Item>
+			<Item Name="Packing" Type="Folder">
+				<Item Name="Packing.lvclass" Type="LVClass" URL="../Builder Pattern/Packing Class/Packing.lvclass"/>
+				<Item Name="Wrapper.lvclass" Type="LVClass" URL="../Builder Pattern/Wrapper Class/Wrapper.lvclass"/>
+				<Item Name="Bottle.lvclass" Type="LVClass" URL="../Builder Pattern/Bottle Class/Bottle.lvclass"/>
+			</Item>
+			<Item Name="Meal Builder" Type="Folder">
+				<Item Name="MealBuilder.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Builder Class/MealBuilder.lvclass"/>
+				<Item Name="Meal.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Class/Meal.lvclass"/>
+			</Item>
+			<Item Name="Builder Pattern Demo.lvclass" Type="LVClass" URL="../Builder Pattern/Builder Pattern Demo/Builder Pattern Demo.lvclass"/>
+		</Item>
 		<Item Name="Chain of Responsibility Pattern" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Chain of Responsibility Pattern Demo.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain of Responsibility Pattern Demo Class/Chain of Responsibility Pattern Demo.lvclass"/>

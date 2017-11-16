@@ -71,6 +71,10 @@
 			<Item Name="Multiply.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Multiply Class/Multiply.lvclass"/>
 			<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
 		</Item>
+		<Item Name="Composite Pattern" Type="Folder">
+			<Item Name="Composite Pattern Demo.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Pattern Demo Class/Composite Pattern Demo.lvclass"/>
+			<Item Name="Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Employee Class/Employee.lvclass"/>
+		</Item>
 		<Item Name="Decorator Pattern" Type="Folder">
 			<Item Name="Starbuzz Coffee Example" Type="Folder">
 				<Item Name="Beverages" Type="Folder">

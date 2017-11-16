@@ -135,6 +135,15 @@
 				<Item Name="Singleton Teste - 2.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Teste - 2.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Strategy Pattern" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Strategy Pattern Demo.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Pattern Demo Class/Strategy Pattern Demo.lvclass"/>
+			<Item Name="Context.lvclass" Type="LVClass" URL="../Strategy Pattern/Context Class/Context.lvclass"/>
+			<Item Name="OperationAdd.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationAdd Class/OperationAdd.lvclass"/>
+			<Item Name="OperationMultiply.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationMultiply Class/OperationMultiply.lvclass"/>
+			<Item Name="OperationSubtract.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationSubtract Class/OperationSubtract.lvclass"/>
+			<Item Name="Strategy.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Class/Strategy.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

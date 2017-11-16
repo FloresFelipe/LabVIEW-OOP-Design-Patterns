@@ -72,6 +72,7 @@
 			<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
 		</Item>
 		<Item Name="Composite Pattern" Type="Folder">
+			<Item Name="Composite Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Employee Class/Composite Employee.lvclass"/>
 			<Item Name="Composite Pattern Demo.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Pattern Demo Class/Composite Pattern Demo.lvclass"/>
 			<Item Name="Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Employee Class/Employee.lvclass"/>
 		</Item>

@@ -71,10 +71,28 @@
 			<Item Name="Multiply.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Multiply Class/Multiply.lvclass"/>
 			<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
 		</Item>
+		<Item Name="Command Pattern" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Application" Type="Folder">
+				<Item Name="Command Pattern Demo.lvclass" Type="LVClass" URL="../Command Pattern/Command Pattern Demo Class/Command Pattern Demo.lvclass"/>
+			</Item>
+			<Item Name="Invoker" Type="Folder">
+				<Item Name="Broker.lvclass" Type="LVClass" URL="../Command Pattern/Broker Class/Broker.lvclass"/>
+			</Item>
+			<Item Name="Requests" Type="Folder">
+				<Item Name="Order.lvclass" Type="LVClass" URL="../Command Pattern/Order Class/Order.lvclass"/>
+				<Item Name="BuyStock.lvclass" Type="LVClass" URL="../Command Pattern/BuyStock Class/BuyStock.lvclass"/>
+				<Item Name="SellStock.lvclass" Type="LVClass" URL="../Command Pattern/SellStock Class/SellStock.lvclass"/>
+			</Item>
+			<Item Name="Client" Type="Folder">
+				<Item Name="Stock.lvclass" Type="LVClass" URL="../Command Pattern/Stock Class/Stock.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Composite Pattern" Type="Folder">
-			<Item Name="Composite Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Employee Class/Composite Employee.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Composite Pattern Demo.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Pattern Demo Class/Composite Pattern Demo.lvclass"/>
 			<Item Name="Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Employee Class/Employee.lvclass"/>
+			<Item Name="Composite Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Employee Class/Composite Employee.lvclass"/>
 		</Item>
 		<Item Name="Decorator Pattern" Type="Folder">
 			<Item Name="Starbuzz Coffee Example" Type="Folder">

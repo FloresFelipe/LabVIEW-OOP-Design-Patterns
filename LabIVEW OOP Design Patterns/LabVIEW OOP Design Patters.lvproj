@@ -79,12 +79,12 @@
 			<Item Name="Invoker" Type="Folder">
 				<Item Name="Broker.lvclass" Type="LVClass" URL="../Command Pattern/Broker Class/Broker.lvclass"/>
 			</Item>
-			<Item Name="Requests" Type="Folder">
+			<Item Name="Command" Type="Folder">
 				<Item Name="Order.lvclass" Type="LVClass" URL="../Command Pattern/Order Class/Order.lvclass"/>
 				<Item Name="BuyStock.lvclass" Type="LVClass" URL="../Command Pattern/BuyStock Class/BuyStock.lvclass"/>
 				<Item Name="SellStock.lvclass" Type="LVClass" URL="../Command Pattern/SellStock Class/SellStock.lvclass"/>
 			</Item>
-			<Item Name="Client" Type="Folder">
+			<Item Name="Receiver" Type="Folder">
 				<Item Name="Stock.lvclass" Type="LVClass" URL="../Command Pattern/Stock Class/Stock.lvclass"/>
 			</Item>
 		</Item>
@@ -131,6 +131,23 @@
 				<Item Name="ProductB.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductB.lvclass"/>
 			</Item>
 			<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
+		</Item>
+		<Item Name="Filter Pattern" Type="Folder">
+			<Item Name="Application" Type="Folder">
+				<Item Name="Filter Pattern Demo.lvclass" Type="LVClass" URL="../Filter Pattern/Filter Pattern Demo Class/Filter Pattern Demo.lvclass"/>
+			</Item>
+			<Item Name="Criteria" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Criteria.lvclass" Type="LVClass" URL="../Filter Pattern/Criteria Class/Criteria.lvclass"/>
+				<Item Name="AndCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/AndCriteria Class/AndCriteria.lvclass"/>
+				<Item Name="CriteriaFemale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaFemale Class/CriteriaFemale.lvclass"/>
+				<Item Name="CriteriaMale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaMale Class/CriteriaMale.lvclass"/>
+				<Item Name="OrCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/OrCriteria Class/OrCriteria.lvclass"/>
+				<Item Name="CiteriaSingle.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaSingle Class/CiteriaSingle.lvclass"/>
+			</Item>
+			<Item Name="Person" Type="Folder">
+				<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Observer Pattern" Type="Folder">
 			<Item Name="Observer Pattern Example" Type="Folder">

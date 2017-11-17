@@ -149,6 +149,14 @@
 				<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Iterator Patttern" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="IContainer.lvclass" Type="LVClass" URL="../Iterator Pattern/IContainer Class/IContainer.lvclass"/>
+			<Item Name="NameRepository.lvclass" Type="LVClass" URL="../Iterator Pattern/NameRepository Class/NameRepository.lvclass"/>
+			<Item Name="Iiterator.lvclass" Type="LVClass" URL="../Iterator Pattern/IIterator Class/Iiterator.lvclass"/>
+			<Item Name="NameIterator.lvclass" Type="LVClass" URL="../Iterator Pattern/NameIterator Class/NameIterator.lvclass"/>
+			<Item Name="IteratorPatternDemo.lvclass" Type="LVClass" URL="../Iterator Pattern/IteratorPatternDemo Class/IteratorPatternDemo.lvclass"/>
+		</Item>
 		<Item Name="Observer Pattern" Type="Folder">
 			<Item Name="Observer Pattern Example" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>

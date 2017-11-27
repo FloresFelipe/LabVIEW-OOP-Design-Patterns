@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -10,6 +10,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -19,180 +20,228 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Adapter Pattern" Type="Folder">
-			<Item Name="Media Player Example" Type="Folder">
-				<Item Name="Advanced Media Player" Type="Folder">
-					<Item Name="AdvancedMediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Advanced Media Player/AdvancedMediaPlayer.lvclass"/>
-					<Item Name="Mp4Player.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Mp4Player/Mp4Player.lvclass"/>
-					<Item Name="VlcPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/VlcPlayer/VlcPlayer.lvclass"/>
+		<Item Name="Creational" Type="Folder">
+			<Item Name="Builder Pattern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Item" Type="Folder">
+					<Item Name="Burger" Type="Folder">
+						<Item Name="Burger.lvclass" Type="LVClass" URL="../Builder Pattern/Burger Class/Burger.lvclass"/>
+						<Item Name="VegBurger.lvclass" Type="LVClass" URL="../Builder Pattern/VegBurger Class/VegBurger.lvclass"/>
+						<Item Name="ChickenBurger.lvclass" Type="LVClass" URL="../Builder Pattern/ChickenBurger Class/ChickenBurger.lvclass"/>
+					</Item>
+					<Item Name="Cold Drink" Type="Folder">
+						<Item Name="ColdDrink.lvclass" Type="LVClass" URL="../Builder Pattern/ColdDrink Class/ColdDrink.lvclass"/>
+						<Item Name="Pepsi.lvclass" Type="LVClass" URL="../Builder Pattern/Pepsi Class/Pepsi.lvclass"/>
+						<Item Name="Coke.lvclass" Type="LVClass" URL="../Builder Pattern/Coke Class/Coke.lvclass"/>
+					</Item>
+					<Item Name="Item.lvclass" Type="LVClass" URL="../Builder Pattern/Item Class/Item.lvclass"/>
 				</Item>
-				<Item Name="Media Player" Type="Folder">
+				<Item Name="Packing" Type="Folder">
+					<Item Name="Packing.lvclass" Type="LVClass" URL="../Builder Pattern/Packing Class/Packing.lvclass"/>
+					<Item Name="Wrapper.lvclass" Type="LVClass" URL="../Builder Pattern/Wrapper Class/Wrapper.lvclass"/>
+					<Item Name="Bottle.lvclass" Type="LVClass" URL="../Builder Pattern/Bottle Class/Bottle.lvclass"/>
+				</Item>
+				<Item Name="Meal Builder" Type="Folder">
+					<Item Name="MealBuilder.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Builder Class/MealBuilder.lvclass"/>
+					<Item Name="Meal.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Class/Meal.lvclass"/>
+				</Item>
+				<Item Name="Builder Pattern Demo.lvclass" Type="LVClass" URL="../Builder Pattern/Builder Pattern Demo/Builder Pattern Demo.lvclass"/>
+			</Item>
+			<Item Name="Factory Method Pattern" Type="Folder">
+				<Item Name="Application Class" Type="Folder">
+					<Item Name="Application.lvclass" Type="LVClass" URL="../Factory Method Pattern/Application Class/Application/Application.lvclass"/>
+					<Item Name="Demo App.lvclass" Type="LVClass" URL="../Factory Method Pattern/Application Class/Demo App/Demo App.lvclass"/>
+				</Item>
+				<Item Name="Factory Class" Type="Folder">
+					<Item Name="Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Factory Class/Factory.lvclass"/>
+					<Item Name="ProductA_Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA_Factory.lvclass"/>
+					<Item Name="ProductB_Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Factory Class/ProductB_Factory/ProductB_Factory.lvclass"/>
+				</Item>
+				<Item Name="Product Class" Type="Folder">
+					<Item Name="Product.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/Product/Product.lvclass"/>
+					<Item Name="ProductA.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductA.lvclass"/>
+					<Item Name="ProductB.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductB.lvclass"/>
+				</Item>
+				<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
+			</Item>
+			<Item Name="Singleton Pattern" Type="Folder">
+				<Item Name="Singleton Pattern Example" Type="Folder">
+					<Item Name="Single Object" Type="Folder">
+						<Item Name="SingleObject.lvclass" Type="LVClass" URL="../Singleton Pattern/Singleton Pattern Example/Single Object/SingleObject.lvclass"/>
+					</Item>
+					<Item Name="Singleton Pattern.asta" Type="Document" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Pattern.asta"/>
+					<Item Name="Singleton Test.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Test.vi"/>
+					<Item Name="Singleton Teste - 2.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Teste - 2.vi"/>
+				</Item>
+			</Item>
+		</Item>
+		<Item Name="Structural" Type="Folder">
+			<Item Name="Adapter Pattern" Type="Folder">
+				<Item Name="Media Player Example" Type="Folder">
+					<Item Name="Advanced Media Player" Type="Folder">
+						<Item Name="AdvancedMediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Advanced Media Player/AdvancedMediaPlayer.lvclass"/>
+						<Item Name="Mp4Player.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Mp4Player/Mp4Player.lvclass"/>
+						<Item Name="VlcPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/VlcPlayer/VlcPlayer.lvclass"/>
+					</Item>
+					<Item Name="Media Player" Type="Folder">
+						<Property Name="NI.SortType" Type="Int">3</Property>
+						<Item Name="MediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Player/MediaPlayer.lvclass"/>
+						<Item Name="AudioPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Audio Player/AudioPlayer.lvclass"/>
+						<Item Name="MediaAdapter.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Adapter/MediaAdapter.lvclass"/>
+					</Item>
+					<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Composite Pattern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Composite Pattern Demo.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Pattern Demo Class/Composite Pattern Demo.lvclass"/>
+				<Item Name="Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Employee Class/Employee.lvclass"/>
+				<Item Name="Composite Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Employee Class/Composite Employee.lvclass"/>
+			</Item>
+			<Item Name="Decorator Pattern" Type="Folder">
+				<Item Name="Starbuzz Coffee Example" Type="Folder">
+					<Item Name="Beverages" Type="Folder">
+						<Item Name="Beverage.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Beverage Class/Beverage.lvclass"/>
+						<Item Name="DarkRoast.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/DarkRoast/DarkRoast.lvclass"/>
+						<Item Name="Decaf.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Decaf/Decaf.lvclass"/>
+						<Item Name="Espresso.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Espresso/Espresso.lvclass"/>
+						<Item Name="HouseBlend.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/HouseBlend/HouseBlend.lvclass"/>
+						<Item Name="MintTea.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/MintTea/MintTea.lvclass"/>
+					</Item>
+					<Item Name="Decorator" Type="Folder">
+						<Item Name="CondimentDecorator.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/CondimentDecorator/CondimentDecorator.lvclass"/>
+						<Item Name="Milk.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Milk/Milk.lvclass"/>
+						<Item Name="Mocha.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Mocha/Mocha.lvclass"/>
+						<Item Name="Soy.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Soy/Soy.lvclass"/>
+						<Item Name="Vanilla.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Vanilla/Vanilla.lvclass"/>
+					</Item>
+					<Item Name="Starbuzz Coffee.asta" Type="Document" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.asta"/>
+					<Item Name="Starbuzz Coffee.vi" Type="VI" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Filter Pattern" Type="Folder">
+				<Item Name="Application" Type="Folder">
+					<Item Name="Filter Pattern Demo.lvclass" Type="LVClass" URL="../Filter Pattern/Filter Pattern Demo Class/Filter Pattern Demo.lvclass"/>
+				</Item>
+				<Item Name="Criteria" Type="Folder">
 					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="MediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Player/MediaPlayer.lvclass"/>
-					<Item Name="AudioPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Audio Player/AudioPlayer.lvclass"/>
-					<Item Name="MediaAdapter.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Adapter/MediaAdapter.lvclass"/>
+					<Item Name="Criteria.lvclass" Type="LVClass" URL="../Filter Pattern/Criteria Class/Criteria.lvclass"/>
+					<Item Name="AndCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/AndCriteria Class/AndCriteria.lvclass"/>
+					<Item Name="CriteriaFemale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaFemale Class/CriteriaFemale.lvclass"/>
+					<Item Name="CriteriaMale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaMale Class/CriteriaMale.lvclass"/>
+					<Item Name="OrCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/OrCriteria Class/OrCriteria.lvclass"/>
+					<Item Name="CiteriaSingle.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaSingle Class/CiteriaSingle.lvclass"/>
 				</Item>
-				<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
-			</Item>
-		</Item>
-		<Item Name="Builder Pattern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Item" Type="Folder">
-				<Item Name="Burger" Type="Folder">
-					<Item Name="Burger.lvclass" Type="LVClass" URL="../Builder Pattern/Burger Class/Burger.lvclass"/>
-					<Item Name="VegBurger.lvclass" Type="LVClass" URL="../Builder Pattern/VegBurger Class/VegBurger.lvclass"/>
-					<Item Name="ChickenBurger.lvclass" Type="LVClass" URL="../Builder Pattern/ChickenBurger Class/ChickenBurger.lvclass"/>
+				<Item Name="Person" Type="Folder">
+					<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
 				</Item>
-				<Item Name="Cold Drink" Type="Folder">
-					<Item Name="ColdDrink.lvclass" Type="LVClass" URL="../Builder Pattern/ColdDrink Class/ColdDrink.lvclass"/>
-					<Item Name="Pepsi.lvclass" Type="LVClass" URL="../Builder Pattern/Pepsi Class/Pepsi.lvclass"/>
-					<Item Name="Coke.lvclass" Type="LVClass" URL="../Builder Pattern/Coke Class/Coke.lvclass"/>
-				</Item>
-				<Item Name="Item.lvclass" Type="LVClass" URL="../Builder Pattern/Item Class/Item.lvclass"/>
-			</Item>
-			<Item Name="Packing" Type="Folder">
-				<Item Name="Packing.lvclass" Type="LVClass" URL="../Builder Pattern/Packing Class/Packing.lvclass"/>
-				<Item Name="Wrapper.lvclass" Type="LVClass" URL="../Builder Pattern/Wrapper Class/Wrapper.lvclass"/>
-				<Item Name="Bottle.lvclass" Type="LVClass" URL="../Builder Pattern/Bottle Class/Bottle.lvclass"/>
-			</Item>
-			<Item Name="Meal Builder" Type="Folder">
-				<Item Name="MealBuilder.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Builder Class/MealBuilder.lvclass"/>
-				<Item Name="Meal.lvclass" Type="LVClass" URL="../Builder Pattern/Meal Class/Meal.lvclass"/>
-			</Item>
-			<Item Name="Builder Pattern Demo.lvclass" Type="LVClass" URL="../Builder Pattern/Builder Pattern Demo/Builder Pattern Demo.lvclass"/>
-		</Item>
-		<Item Name="Chain of Responsibility Pattern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Chain of Responsibility Pattern Demo.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain of Responsibility Pattern Demo Class/Chain of Responsibility Pattern Demo.lvclass"/>
-			<Item Name="Chain.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain Class/Chain.lvclass"/>
-			<Item Name="Numbers.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Numbers Class/Numbers.lvclass"/>
-			<Item Name="Add.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Add Class/Add.lvclass"/>
-			<Item Name="Subtract.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Subtract Class/Subtract.lvclass"/>
-			<Item Name="Multiply.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Multiply Class/Multiply.lvclass"/>
-			<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
-		</Item>
-		<Item Name="Command Pattern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Application" Type="Folder">
-				<Item Name="Command Pattern Demo.lvclass" Type="LVClass" URL="../Command Pattern/Command Pattern Demo Class/Command Pattern Demo.lvclass"/>
-			</Item>
-			<Item Name="Invoker" Type="Folder">
-				<Item Name="Broker.lvclass" Type="LVClass" URL="../Command Pattern/Broker Class/Broker.lvclass"/>
-			</Item>
-			<Item Name="Command" Type="Folder">
-				<Item Name="Order.lvclass" Type="LVClass" URL="../Command Pattern/Order Class/Order.lvclass"/>
-				<Item Name="BuyStock.lvclass" Type="LVClass" URL="../Command Pattern/BuyStock Class/BuyStock.lvclass"/>
-				<Item Name="SellStock.lvclass" Type="LVClass" URL="../Command Pattern/SellStock Class/SellStock.lvclass"/>
-			</Item>
-			<Item Name="Receiver" Type="Folder">
-				<Item Name="Stock.lvclass" Type="LVClass" URL="../Command Pattern/Stock Class/Stock.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Composite Pattern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Composite Pattern Demo.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Pattern Demo Class/Composite Pattern Demo.lvclass"/>
-			<Item Name="Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Employee Class/Employee.lvclass"/>
-			<Item Name="Composite Employee.lvclass" Type="LVClass" URL="../Composite Pattern/Composite Employee Class/Composite Employee.lvclass"/>
-		</Item>
-		<Item Name="Decorator Pattern" Type="Folder">
-			<Item Name="Starbuzz Coffee Example" Type="Folder">
-				<Item Name="Beverages" Type="Folder">
-					<Item Name="Beverage.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Beverage Class/Beverage.lvclass"/>
-					<Item Name="DarkRoast.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/DarkRoast/DarkRoast.lvclass"/>
-					<Item Name="Decaf.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Decaf/Decaf.lvclass"/>
-					<Item Name="Espresso.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Espresso/Espresso.lvclass"/>
-					<Item Name="HouseBlend.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/HouseBlend/HouseBlend.lvclass"/>
-					<Item Name="MintTea.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/MintTea/MintTea.lvclass"/>
-				</Item>
-				<Item Name="Decorator" Type="Folder">
-					<Item Name="CondimentDecorator.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/CondimentDecorator/CondimentDecorator.lvclass"/>
-					<Item Name="Milk.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Milk/Milk.lvclass"/>
-					<Item Name="Mocha.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Mocha/Mocha.lvclass"/>
-					<Item Name="Soy.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Soy/Soy.lvclass"/>
-					<Item Name="Vanilla.lvclass" Type="LVClass" URL="../Decorator Pattern/Starbuzz Coffee Example/Vanilla/Vanilla.lvclass"/>
-				</Item>
-				<Item Name="Starbuzz Coffee.asta" Type="Document" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.asta"/>
-				<Item Name="Starbuzz Coffee.vi" Type="VI" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.vi"/>
-			</Item>
-		</Item>
-		<Item Name="Factory Method Pattern" Type="Folder">
-			<Item Name="Application Class" Type="Folder">
-				<Item Name="Application.lvclass" Type="LVClass" URL="../Factory Method Pattern/Application Class/Application/Application.lvclass"/>
-				<Item Name="Demo App.lvclass" Type="LVClass" URL="../Factory Method Pattern/Application Class/Demo App/Demo App.lvclass"/>
-			</Item>
-			<Item Name="Factory Class" Type="Folder">
-				<Item Name="Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Factory Class/Factory.lvclass"/>
-				<Item Name="ProductA_Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA_Factory.lvclass"/>
-				<Item Name="ProductB_Factory.lvclass" Type="LVClass" URL="../Factory Method Pattern/Factory Class/ProductB_Factory/ProductB_Factory.lvclass"/>
-			</Item>
-			<Item Name="Product Class" Type="Folder">
-				<Item Name="Product.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/Product/Product.lvclass"/>
-				<Item Name="ProductA.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductA.lvclass"/>
-				<Item Name="ProductB.lvclass" Type="LVClass" URL="../Factory Method Pattern/Product Class/ProductA/ProductB.lvclass"/>
-			</Item>
-			<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
-		</Item>
-		<Item Name="Filter Pattern" Type="Folder">
-			<Item Name="Application" Type="Folder">
-				<Item Name="Filter Pattern Demo.lvclass" Type="LVClass" URL="../Filter Pattern/Filter Pattern Demo Class/Filter Pattern Demo.lvclass"/>
-			</Item>
-			<Item Name="Criteria" Type="Folder">
+		<Item Name="Behavioral" Type="Folder">
+			<Item Name="Chain of Responsibility Pattern" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Criteria.lvclass" Type="LVClass" URL="../Filter Pattern/Criteria Class/Criteria.lvclass"/>
-				<Item Name="AndCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/AndCriteria Class/AndCriteria.lvclass"/>
-				<Item Name="CriteriaFemale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaFemale Class/CriteriaFemale.lvclass"/>
-				<Item Name="CriteriaMale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaMale Class/CriteriaMale.lvclass"/>
-				<Item Name="OrCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/OrCriteria Class/OrCriteria.lvclass"/>
-				<Item Name="CiteriaSingle.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaSingle Class/CiteriaSingle.lvclass"/>
+				<Item Name="Chain of Responsibility Pattern Demo.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain of Responsibility Pattern Demo Class/Chain of Responsibility Pattern Demo.lvclass"/>
+				<Item Name="Chain.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Chain Class/Chain.lvclass"/>
+				<Item Name="Numbers.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Numbers Class/Numbers.lvclass"/>
+				<Item Name="Add.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Add Class/Add.lvclass"/>
+				<Item Name="Subtract.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Subtract Class/Subtract.lvclass"/>
+				<Item Name="Multiply.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Multiply Class/Multiply.lvclass"/>
+				<Item Name="Divide.lvclass" Type="LVClass" URL="../Chain of Responsibility Pattern/Divide Class/Divide.lvclass"/>
 			</Item>
-			<Item Name="Person" Type="Folder">
-				<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
-			</Item>
-		</Item>
-		<Item Name="Iterator Patttern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="IContainer.lvclass" Type="LVClass" URL="../Iterator Pattern/IContainer Class/IContainer.lvclass"/>
-			<Item Name="NameRepository.lvclass" Type="LVClass" URL="../Iterator Pattern/NameRepository Class/NameRepository.lvclass"/>
-			<Item Name="Iiterator.lvclass" Type="LVClass" URL="../Iterator Pattern/IIterator Class/Iiterator.lvclass"/>
-			<Item Name="NameIterator.lvclass" Type="LVClass" URL="../Iterator Pattern/NameIterator Class/NameIterator.lvclass"/>
-			<Item Name="IteratorPatternDemo.lvclass" Type="LVClass" URL="../Iterator Pattern/IteratorPatternDemo Class/IteratorPatternDemo.lvclass"/>
-		</Item>
-		<Item Name="Observer Pattern" Type="Folder">
-			<Item Name="Observer Pattern Example" Type="Folder">
+			<Item Name="Command Pattern" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Observers" Type="Folder">
-					<Item Name="Observer.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observer/Observer.lvclass"/>
-					<Item Name="ForecastDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/ForecastDisplay/ForecastDisplay.lvclass"/>
-					<Item Name="GeneralDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/General Display/GeneralDisplay.lvclass"/>
-					<Item Name="StatisticsDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/StatisticsDisplay/StatisticsDisplay.lvclass"/>
+				<Item Name="Application" Type="Folder">
+					<Item Name="Command Pattern Demo.lvclass" Type="LVClass" URL="../Command Pattern/Command Pattern Demo Class/Command Pattern Demo.lvclass"/>
 				</Item>
-				<Item Name="Observables" Type="Folder">
-					<Item Name="Observable.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observable/Observable.lvclass"/>
-					<Item Name="WeatherData.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Weather Station/WeatherData.lvclass"/>
+				<Item Name="Invoker" Type="Folder">
+					<Item Name="Broker.lvclass" Type="LVClass" URL="../Command Pattern/Broker Class/Broker.lvclass"/>
 				</Item>
-				<Item Name="ObserverDemo.vi" Type="VI" URL="../Observer Pattern/Observer Pattern Example/ObserverDemo.vi"/>
+				<Item Name="Command" Type="Folder">
+					<Item Name="Order.lvclass" Type="LVClass" URL="../Command Pattern/Order Class/Order.lvclass"/>
+					<Item Name="BuyStock.lvclass" Type="LVClass" URL="../Command Pattern/BuyStock Class/BuyStock.lvclass"/>
+					<Item Name="SellStock.lvclass" Type="LVClass" URL="../Command Pattern/SellStock Class/SellStock.lvclass"/>
+				</Item>
+				<Item Name="Receiver" Type="Folder">
+					<Item Name="Stock.lvclass" Type="LVClass" URL="../Command Pattern/Stock Class/Stock.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Iterator Patttern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="IContainer.lvclass" Type="LVClass" URL="../Iterator Pattern/IContainer Class/IContainer.lvclass"/>
+				<Item Name="NameRepository.lvclass" Type="LVClass" URL="../Iterator Pattern/NameRepository Class/NameRepository.lvclass"/>
+				<Item Name="Iiterator.lvclass" Type="LVClass" URL="../Iterator Pattern/IIterator Class/Iiterator.lvclass"/>
+				<Item Name="NameIterator.lvclass" Type="LVClass" URL="../Iterator Pattern/NameIterator Class/NameIterator.lvclass"/>
+				<Item Name="IteratorPatternDemo.lvclass" Type="LVClass" URL="../Iterator Pattern/IteratorPatternDemo Class/IteratorPatternDemo.lvclass"/>
+			</Item>
+			<Item Name="Mediator Pattern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="ChatRoom.lvclass" Type="LVClass" URL="../Mediator Pattern/ChatRoom/ChatRoom.lvclass"/>
+				<Item Name="MediatorPatternDemo.lvclass" Type="LVClass" URL="../Mediator Pattern/MediatorPatternDemo Class/MediatorPatternDemo.lvclass"/>
+				<Item Name="User.lvclass" Type="LVClass" URL="../Mediator Pattern/User Class/User.lvclass"/>
+				<Item Name="Global.vi" Type="VI" URL="../Mediator Pattern/Support/Global.vi"/>
+			</Item>
+			<Item Name="Memento Pattern" Type="Folder">
+				<Item Name="CareTaker.lvclass" Type="LVClass" URL="../Memento Pattern/CareTaker Class/CareTaker.lvclass"/>
+				<Item Name="Memento.lvclass" Type="LVClass" URL="../Memento Pattern/Memento Class/Memento.lvclass"/>
+				<Item Name="MementoPatternDemo.lvclass" Type="LVClass" URL="../Memento Pattern/MementoPatternDemo Class/MementoPatternDemo.lvclass"/>
+				<Item Name="Originator.lvclass" Type="LVClass" URL="../Memento Pattern/Originator Class/Originator.lvclass"/>
+			</Item>
+			<Item Name="Observer Pattern" Type="Folder">
+				<Item Name="Observer Pattern Example" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Observers" Type="Folder">
+						<Item Name="Observer.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observer/Observer.lvclass"/>
+						<Item Name="ForecastDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/ForecastDisplay/ForecastDisplay.lvclass"/>
+						<Item Name="StatisticsDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/StatisticsDisplay/StatisticsDisplay.lvclass"/>
+						<Item Name="GeneralDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/GeneralDisplay/GeneralDisplay.lvclass"/>
+					</Item>
+					<Item Name="Observables" Type="Folder">
+						<Item Name="Observable.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observable/Observable.lvclass"/>
+						<Item Name="WeatherData.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Weather Station/WeatherData.lvclass"/>
+					</Item>
+					<Item Name="ObserverDemo.vi" Type="VI" URL="../Observer Pattern/Observer Pattern Example/ObserverDemo.vi"/>
+				</Item>
+			</Item>
+			<Item Name="State Pattern" Type="Folder">
+				<Item Name="Application" Type="Folder">
+					<Item Name="StatePatternDemo.lvclass" Type="LVClass" URL="../State Pattern/StatePatternDemo Class/StatePatternDemo.lvclass"/>
+				</Item>
+				<Item Name="Context" Type="Folder">
+					<Item Name="Player.lvclass" Type="LVClass" URL="../State Pattern/Player Class/Player.lvclass"/>
+				</Item>
+				<Item Name="States" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="State.lvclass" Type="LVClass" URL="../State Pattern/State Class/State.lvclass"/>
+					<Item Name="LockedState.lvclass" Type="LVClass" URL="../State Pattern/LockedState Class/LockedState.lvclass"/>
+					<Item Name="PlayingState.lvclass" Type="LVClass" URL="../State Pattern/PlayingState Class/PlayingState.lvclass"/>
+					<Item Name="ReadyState.lvclass" Type="LVClass" URL="../State Pattern/ReadyState Class/ReadyState.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Strategy Pattern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Strategy Pattern Demo.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Pattern Demo Class/Strategy Pattern Demo.lvclass"/>
+				<Item Name="Context.lvclass" Type="LVClass" URL="../Strategy Pattern/Context Class/Context.lvclass"/>
+				<Item Name="OperationAdd.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationAdd Class/OperationAdd.lvclass"/>
+				<Item Name="OperationMultiply.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationMultiply Class/OperationMultiply.lvclass"/>
+				<Item Name="OperationSubtract.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationSubtract Class/OperationSubtract.lvclass"/>
+				<Item Name="Strategy.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Class/Strategy.lvclass"/>
+			</Item>
+			<Item Name="Template Pattern" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Game.lvclass" Type="LVClass" URL="../Template Pattern/Game Class/Game.lvclass"/>
+				<Item Name="Cricket.lvclass" Type="LVClass" URL="../Template Pattern/Cricket Class/Cricket.lvclass"/>
+				<Item Name="Football.lvclass" Type="LVClass" URL="../Template Pattern/Football Class/Football.lvclass"/>
+				<Item Name="TemplatePatternDemo.lvclass" Type="LVClass" URL="../Template Pattern/TemplatePatternDemo Class/TemplatePatternDemo.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Singleton Pattern" Type="Folder">
-			<Item Name="Singleton Pattern Example" Type="Folder">
-				<Item Name="Single Object" Type="Folder">
-					<Item Name="SingleObject.lvclass" Type="LVClass" URL="../Singleton Pattern/Singleton Pattern Example/Single Object/SingleObject.lvclass"/>
-				</Item>
-				<Item Name="Singleton Pattern.asta" Type="Document" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Pattern.asta"/>
-				<Item Name="Singleton Test.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Test.vi"/>
-				<Item Name="Singleton Teste - 2.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Teste - 2.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Strategy Pattern" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Strategy Pattern Demo.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Pattern Demo Class/Strategy Pattern Demo.lvclass"/>
-			<Item Name="Context.lvclass" Type="LVClass" URL="../Strategy Pattern/Context Class/Context.lvclass"/>
-			<Item Name="OperationAdd.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationAdd Class/OperationAdd.lvclass"/>
-			<Item Name="OperationMultiply.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationMultiply Class/OperationMultiply.lvclass"/>
-			<Item Name="OperationSubtract.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationSubtract Class/OperationSubtract.lvclass"/>
-			<Item Name="Strategy.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Class/Strategy.lvclass"/>
-		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

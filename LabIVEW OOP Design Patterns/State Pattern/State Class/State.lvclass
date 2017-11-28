@@ -37,7 +37,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="onLock.vi" Type="VI" URL="../onLock.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q:4&gt;(*J&lt;G=!!#R!=!!?!!!1$F"M98FF=CZM&gt;G.M98.T!!!15'RB?76S,GRW9WRB=X-A-A!!)E"Q!"Y!!!].5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!*5X2B&gt;'5A&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!1$F"M98FF=CZM&gt;G.M98.T!!!/5'RB?76S,GRW9WRB=X-!!#*!=!!?!!!0$6.U982F,GRW9WRB=X-!#&amp;.U982F)'FO!!"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A)!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q:4&gt;(*J&lt;G=!!#:!=!!?!!!1$F"M98FF=CZM&gt;G.M98.T!!!+5'RB?76S)%^V&gt;!!!)E"Q!"Y!!!].5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!*5X2B&gt;'5A&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#2!=!!?!!!1$F"M98FF=CZM&gt;G.M98.T!!!*5'RB?76S)%FO!#*!=!!?!!!0$6.U982F,GRW9WRB=X-!#&amp;.U982F)'FO!!"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A)!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

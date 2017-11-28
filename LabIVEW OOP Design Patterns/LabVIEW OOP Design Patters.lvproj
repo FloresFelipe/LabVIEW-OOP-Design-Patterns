@@ -64,6 +64,29 @@
 				</Item>
 				<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
 			</Item>
+			<Item Name="Abstract Factory Pattern" Type="Folder">
+				<Item Name="Shapes" Type="Folder">
+					<Item Name="afShape.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afShape Class/afShape.lvclass"/>
+					<Item Name="afCircle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afCircle Class/afCircle.lvclass"/>
+					<Item Name="afSquare.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afSquare Class/afSquare.lvclass"/>
+					<Item Name="afRectangle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRectangle Class/afRectangle.lvclass"/>
+				</Item>
+				<Item Name="Colors" Type="Folder">
+					<Item Name="afColor.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afColor Class/afColor.lvclass"/>
+					<Item Name="afRed.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRed Class/afRed.lvclass"/>
+					<Item Name="afGreen.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afGreen Class/afGreen.lvclass"/>
+					<Item Name="afBlue.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afBlue Class/afBlue.lvclass"/>
+				</Item>
+				<Item Name="Factories" Type="Folder">
+					<Item Name="FactoryProducer.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/FactoryProducer Class/FactoryProducer.lvclass"/>
+					<Item Name="AbstractFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactory Class/AbstractFactory.lvclass"/>
+					<Item Name="ColorFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ColorFactory Class/ColorFactory.lvclass"/>
+					<Item Name="ShapeFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ShapeFactory Class/ShapeFactory.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="AbstractFactoryPatternDemo.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactoryPatternDemo Class/AbstractFactoryPatternDemo.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Singleton Pattern" Type="Folder">
 				<Item Name="Singleton Pattern Example" Type="Folder">
 					<Item Name="Single Object" Type="Folder">
@@ -72,6 +95,16 @@
 					<Item Name="Singleton Pattern.asta" Type="Document" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Pattern.asta"/>
 					<Item Name="Singleton Test.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Test.vi"/>
 					<Item Name="Singleton Teste - 2.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Teste - 2.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Prototype Pattern" Type="Folder">
+				<Item Name="Prototypes" Type="Folder">
+					<Item Name="pShape.lvclass" Type="LVClass" URL="../Prototype Pattern/Shape Class/pShape.lvclass"/>
+					<Item Name="pCircle.lvclass" Type="LVClass" URL="../Prototype Pattern/Circle Class/pCircle.lvclass"/>
+					<Item Name="pRectangle.lvclass" Type="LVClass" URL="../Prototype Pattern/Rectangle Class/pRectangle.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="PrototypePatternDemo.lvclass" Type="LVClass" URL="../Prototype Pattern/PrototypePatternDemo Class/PrototypePatternDemo.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
@@ -232,6 +265,22 @@
 				<Item Name="Cricket.lvclass" Type="LVClass" URL="../Template Pattern/Cricket Class/Cricket.lvclass"/>
 				<Item Name="Football.lvclass" Type="LVClass" URL="../Template Pattern/Football Class/Football.lvclass"/>
 				<Item Name="TemplatePatternDemo.lvclass" Type="LVClass" URL="../Template Pattern/TemplatePatternDemo Class/TemplatePatternDemo.lvclass"/>
+			</Item>
+			<Item Name="Visitor Pattern" Type="Folder">
+				<Item Name="Shapes" Type="Folder">
+					<Item Name="Circle.lvclass" Type="LVClass" URL="../Visitor Pattern/Circle Class/Circle.lvclass"/>
+					<Item Name="CompoundShape.lvclass" Type="LVClass" URL="../Visitor Pattern/CompoundShape Class/CompoundShape.lvclass"/>
+					<Item Name="Dot.lvclass" Type="LVClass" URL="../Visitor Pattern/Dot Class/Dot.lvclass"/>
+					<Item Name="Rectangle.lvclass" Type="LVClass" URL="../Visitor Pattern/Rectangle Class/Rectangle.lvclass"/>
+					<Item Name="Shape.lvclass" Type="LVClass" URL="../Visitor Pattern/Shape Class/Shape.lvclass"/>
+				</Item>
+				<Item Name="Visitors" Type="Folder">
+					<Item Name="Visitor.lvclass" Type="LVClass" URL="../Visitor Pattern/Visitor Class/Visitor.lvclass"/>
+					<Item Name="XMLExportVisitor.lvclass" Type="LVClass" URL="../Visitor Pattern/XMLExportVisitor Class/XMLExportVisitor.lvclass"/>
+				</Item>
+				<Item Name="Appliaction Class" Type="Folder">
+					<Item Name="VisitorPatternDemo.lvclass" Type="LVClass" URL="../Visitor Pattern/VisitorPatternDemo Class/VisitorPatternDemo.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">

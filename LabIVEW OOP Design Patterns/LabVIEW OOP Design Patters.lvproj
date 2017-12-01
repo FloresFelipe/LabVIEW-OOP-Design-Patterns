@@ -233,6 +233,7 @@
 					<Item Name="VideoFile.lvclass" Type="LVClass" URL="../Facade Pattern/VideoFile Class/VideoFile.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="Proxy Pattern" Type="Folder"/>
 		</Item>
 		<Item Name="Behavioral" Type="Folder">
 			<Item Name="Chain of Responsibility Pattern" Type="Folder">
@@ -346,7 +347,20 @@
 					<Item Name="VisitorPatternDemo.lvclass" Type="LVClass" URL="../Visitor Pattern/VisitorPatternDemo Class/VisitorPatternDemo.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Null Object Pattern" Type="Folder"/>
+			<Item Name="Null Object Pattern" Type="Folder">
+				<Item Name="Customer" Type="Folder">
+					<Item Name="AbstractCustomer.lvclass" Type="LVClass" URL="../Null Object Pattern/AbstractCustomer Class/AbstractCustomer.lvclass"/>
+					<Item Name="RealCustomer.lvclass" Type="LVClass" URL="../Null Object Pattern/RealCustomer Class/RealCustomer.lvclass"/>
+					<Item Name="NullCustomer.lvclass" Type="LVClass" URL="../Null Object Pattern/NullCustomer Class/NullCustomer.lvclass"/>
+				</Item>
+				<Item Name="Customer Factory" Type="Folder">
+					<Item Name="CustomerFactory.lvclass" Type="LVClass" URL="../Null Object Pattern/CustomerFactory Class/CustomerFactory.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="NullPatternDemo.lvclass" Type="LVClass" URL="../Null Object Pattern/NullPatternDemo Class/NullPatternDemo.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Interpreter Pattern" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

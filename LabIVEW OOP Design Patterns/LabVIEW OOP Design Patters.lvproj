@@ -233,7 +233,22 @@
 					<Item Name="VideoFile.lvclass" Type="LVClass" URL="../Facade Pattern/VideoFile Class/VideoFile.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Proxy Pattern" Type="Folder"/>
+			<Item Name="Proxy Pattern" Type="Folder">
+				<Item Name="Some Cool Media Library" Type="Folder">
+					<Item Name="ThirdPartyYoutubeLib.lvclass" Type="LVClass" URL="../Proxy Pattern/ThirdPartyYoutubeLib Class/ThirdPartyYoutubeLib.lvclass"/>
+					<Item Name="ThirdPartyYoutubeClass.lvclass" Type="LVClass" URL="../Proxy Pattern/ThirdPartyYoutubeClass Class/ThirdPartyYoutubeClass.lvclass"/>
+					<Item Name="Video.lvclass" Type="LVClass" URL="../Proxy Pattern/Video Class/Video.lvclass"/>
+				</Item>
+				<Item Name="Proxy" Type="Folder">
+					<Item Name="YoutubeCacheProxy.lvclass" Type="LVClass" URL="../Proxy Pattern/YoutubeCacheProxy Class/YoutubeCacheProxy.lvclass"/>
+				</Item>
+				<Item Name="Downloader" Type="Folder">
+					<Item Name="YoutuberDownloader.lvclass" Type="LVClass" URL="../Proxy Pattern/YoutuberDownloader Class/YoutuberDownloader.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="Demo.lvclass" Type="LVClass" URL="../Proxy Pattern/Demo Class/Demo.lvclass"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Behavioral" Type="Folder">
 			<Item Name="Chain of Responsibility Pattern" Type="Folder">

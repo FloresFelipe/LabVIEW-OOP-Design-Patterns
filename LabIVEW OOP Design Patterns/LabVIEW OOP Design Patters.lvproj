@@ -109,6 +109,29 @@
 			</Item>
 		</Item>
 		<Item Name="Structural" Type="Folder">
+			<Item Name="Bridge Pattern" Type="Folder">
+				<Item Name="AdvancedRemote Class" Type="Folder">
+					<Item Name="AdvancedRemote.lvclass" Type="LVClass" URL="../Bridge Pattern/AdvancedRemote Class/AdvancedRemote.lvclass"/>
+				</Item>
+				<Item Name="BasicRemote Class" Type="Folder">
+					<Item Name="BasicRemote.lvclass" Type="LVClass" URL="../Bridge Pattern/BasicRemote Class/BasicRemote.lvclass"/>
+				</Item>
+				<Item Name="BridgePattern Class" Type="Folder">
+					<Item Name="BridgePatternDemo.lvclass" Type="LVClass" URL="../Bridge Pattern/BridgePattern Class/BridgePatternDemo.lvclass"/>
+				</Item>
+				<Item Name="Device Class" Type="Folder">
+					<Item Name="Device.lvclass" Type="LVClass" URL="../Bridge Pattern/Device Class/Device.lvclass"/>
+				</Item>
+				<Item Name="Radio Class" Type="Folder">
+					<Item Name="Radio.lvclass" Type="LVClass" URL="../Bridge Pattern/Radio Class/Radio.lvclass"/>
+				</Item>
+				<Item Name="Remote Class" Type="Folder">
+					<Item Name="Remote.lvclass" Type="LVClass" URL="../Bridge Pattern/Remote Class/Remote.lvclass"/>
+				</Item>
+				<Item Name="Tv Class" Type="Folder">
+					<Item Name="Tv.lvclass" Type="LVClass" URL="../Bridge Pattern/Tv Class/Tv.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Adapter Pattern" Type="Folder">
 				<Item Name="Media Player Example" Type="Folder">
 					<Item Name="Advanced Media Player" Type="Folder">
@@ -167,6 +190,47 @@
 				</Item>
 				<Item Name="Person" Type="Folder">
 					<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Flightweight Pattern" Type="Folder">
+				<Item Name="FlightweightPattern Demo" Type="Folder">
+					<Item Name="Flightweight Pattern Demo.lvclass" Type="LVClass" URL="../Flightweight Pattern/FlightweightPattern Demo Class/Flightweight Pattern Demo.lvclass"/>
+				</Item>
+				<Item Name="Shape" Type="Folder">
+					<Item Name="fwCircle.lvclass" Type="LVClass" URL="../Flightweight Pattern/Circle Class/fwCircle.lvclass"/>
+					<Item Name="fwShape.lvclass" Type="LVClass" URL="../Flightweight Pattern/Shape Class/fwShape.lvclass"/>
+				</Item>
+				<Item Name="ShapeFactory" Type="Folder">
+					<Item Name="fwShapeFactory.lvclass" Type="LVClass" URL="../Flightweight Pattern/ShapeFactory Class/fwShapeFactory.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Facade Pattern" Type="Folder">
+				<Item Name="AudioMixer Class" Type="Folder">
+					<Item Name="AudioMixer.lvclass" Type="LVClass" URL="../Facade Pattern/AudioMixer Class/AudioMixer.lvclass"/>
+				</Item>
+				<Item Name="BitrateReader Class" Type="Folder">
+					<Item Name="BitrateReader.lvclass" Type="LVClass" URL="../Facade Pattern/BitrateReader Class/BitrateReader.lvclass"/>
+				</Item>
+				<Item Name="Codec Class" Type="Folder">
+					<Item Name="Codec.lvclass" Type="LVClass" URL="../Facade Pattern/Codec Class/Codec.lvclass"/>
+				</Item>
+				<Item Name="CodecFactory Class" Type="Folder">
+					<Item Name="CodecFactory.lvclass" Type="LVClass" URL="../Facade Pattern/CodecFactory Class/CodecFactory.lvclass"/>
+				</Item>
+				<Item Name="FacadePatternDemo Class" Type="Folder">
+					<Item Name="FacadePatternDemo.lvclass" Type="LVClass" URL="../Facade Pattern/FacadePatternDemo Class/FacadePatternDemo.lvclass"/>
+				</Item>
+				<Item Name="MPEG4CompressionCodec Class" Type="Folder">
+					<Item Name="MPEG4CompressionCodec.lvclass" Type="LVClass" URL="../Facade Pattern/MPEG4CompressionCodec Class/MPEG4CompressionCodec.lvclass"/>
+				</Item>
+				<Item Name="OggCompressionCodec Class" Type="Folder">
+					<Item Name="OggCompressionCodec.lvclass" Type="LVClass" URL="../Facade Pattern/OggCompressionCodec Class/OggCompressionCodec.lvclass"/>
+				</Item>
+				<Item Name="VideoConversionFacade Class" Type="Folder">
+					<Item Name="VideoConversionFacade.lvclass" Type="LVClass" URL="../Facade Pattern/VideoConversionFacade Class/VideoConversionFacade.lvclass"/>
+				</Item>
+				<Item Name="VideoFile Class" Type="Folder">
+					<Item Name="VideoFile.lvclass" Type="LVClass" URL="../Facade Pattern/VideoFile Class/VideoFile.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
@@ -282,6 +346,7 @@
 					<Item Name="VisitorPatternDemo.lvclass" Type="LVClass" URL="../Visitor Pattern/VisitorPatternDemo Class/VisitorPatternDemo.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="Null Object Pattern" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

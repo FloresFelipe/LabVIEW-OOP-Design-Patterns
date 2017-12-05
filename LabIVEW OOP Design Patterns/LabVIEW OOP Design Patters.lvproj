@@ -237,6 +237,7 @@
 				<Item Name="Globals" Type="Folder">
 					<Item Name="ConsoleOut.vi" Type="VI" URL="../Proxy Pattern/Globals/ConsoleOut.vi"/>
 					<Item Name="HashMap.ctl" Type="VI" URL="../Proxy Pattern/Globals/HashMap.ctl"/>
+					<Item Name="User Event Print.vi" Type="VI" URL="../Proxy Pattern/Globals/User Event Print.vi"/>
 				</Item>
 				<Item Name="Some Cool Media Library" Type="Folder">
 					<Item Name="ThirdPartyYoutubeLib.lvclass" Type="LVClass" URL="../Proxy Pattern/ThirdPartyYoutubeLib Class/ThirdPartyYoutubeLib.lvclass"/>

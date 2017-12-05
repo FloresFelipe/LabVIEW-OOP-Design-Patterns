@@ -21,6 +21,29 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Creational" Type="Folder">
+			<Item Name="Abstract Factory Pattern" Type="Folder">
+				<Item Name="Shapes" Type="Folder">
+					<Item Name="afShape.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afShape Class/afShape.lvclass"/>
+					<Item Name="afCircle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afCircle Class/afCircle.lvclass"/>
+					<Item Name="afSquare.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afSquare Class/afSquare.lvclass"/>
+					<Item Name="afRectangle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRectangle Class/afRectangle.lvclass"/>
+				</Item>
+				<Item Name="Colors" Type="Folder">
+					<Item Name="afColor.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afColor Class/afColor.lvclass"/>
+					<Item Name="afRed.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRed Class/afRed.lvclass"/>
+					<Item Name="afGreen.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afGreen Class/afGreen.lvclass"/>
+					<Item Name="afBlue.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afBlue Class/afBlue.lvclass"/>
+				</Item>
+				<Item Name="Factories" Type="Folder">
+					<Item Name="FactoryProducer.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/FactoryProducer Class/FactoryProducer.lvclass"/>
+					<Item Name="AbstractFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactory Class/AbstractFactory.lvclass"/>
+					<Item Name="ColorFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ColorFactory Class/ColorFactory.lvclass"/>
+					<Item Name="ShapeFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ShapeFactory Class/ShapeFactory.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="AbstractFactoryPatternDemo.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactoryPatternDemo Class/AbstractFactoryPatternDemo.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Builder Pattern" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Item" Type="Folder">
@@ -64,27 +87,14 @@
 				</Item>
 				<Item Name="Factory Pattern - Class Diagram.asta" Type="Document" URL="../Factory Method Pattern/Factory Pattern - Class Diagram.asta"/>
 			</Item>
-			<Item Name="Abstract Factory Pattern" Type="Folder">
-				<Item Name="Shapes" Type="Folder">
-					<Item Name="afShape.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afShape Class/afShape.lvclass"/>
-					<Item Name="afCircle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afCircle Class/afCircle.lvclass"/>
-					<Item Name="afSquare.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afSquare Class/afSquare.lvclass"/>
-					<Item Name="afRectangle.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRectangle Class/afRectangle.lvclass"/>
-				</Item>
-				<Item Name="Colors" Type="Folder">
-					<Item Name="afColor.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afColor Class/afColor.lvclass"/>
-					<Item Name="afRed.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afRed Class/afRed.lvclass"/>
-					<Item Name="afGreen.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afGreen Class/afGreen.lvclass"/>
-					<Item Name="afBlue.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/afBlue Class/afBlue.lvclass"/>
-				</Item>
-				<Item Name="Factories" Type="Folder">
-					<Item Name="FactoryProducer.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/FactoryProducer Class/FactoryProducer.lvclass"/>
-					<Item Name="AbstractFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactory Class/AbstractFactory.lvclass"/>
-					<Item Name="ColorFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ColorFactory Class/ColorFactory.lvclass"/>
-					<Item Name="ShapeFactory.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/ShapeFactory Class/ShapeFactory.lvclass"/>
+			<Item Name="Prototype Pattern" Type="Folder">
+				<Item Name="Prototypes" Type="Folder">
+					<Item Name="pShape.lvclass" Type="LVClass" URL="../Prototype Pattern/Shape Class/pShape.lvclass"/>
+					<Item Name="pCircle.lvclass" Type="LVClass" URL="../Prototype Pattern/Circle Class/pCircle.lvclass"/>
+					<Item Name="pRectangle.lvclass" Type="LVClass" URL="../Prototype Pattern/Rectangle Class/pRectangle.lvclass"/>
 				</Item>
 				<Item Name="Application" Type="Folder">
-					<Item Name="AbstractFactoryPatternDemo.lvclass" Type="LVClass" URL="../Abstract Factory Pattern/AbstractFactoryPatternDemo Class/AbstractFactoryPatternDemo.lvclass"/>
+					<Item Name="PrototypePatternDemo.lvclass" Type="LVClass" URL="../Prototype Pattern/PrototypePatternDemo Class/PrototypePatternDemo.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Singleton Pattern" Type="Folder">
@@ -97,18 +107,24 @@
 					<Item Name="Singleton Teste - 2.vi" Type="VI" URL="../Singleton Pattern/Singleton Pattern Example/Singleton Teste - 2.vi"/>
 				</Item>
 			</Item>
-			<Item Name="Prototype Pattern" Type="Folder">
-				<Item Name="Prototypes" Type="Folder">
-					<Item Name="pShape.lvclass" Type="LVClass" URL="../Prototype Pattern/Shape Class/pShape.lvclass"/>
-					<Item Name="pCircle.lvclass" Type="LVClass" URL="../Prototype Pattern/Circle Class/pCircle.lvclass"/>
-					<Item Name="pRectangle.lvclass" Type="LVClass" URL="../Prototype Pattern/Rectangle Class/pRectangle.lvclass"/>
-				</Item>
-				<Item Name="Application" Type="Folder">
-					<Item Name="PrototypePatternDemo.lvclass" Type="LVClass" URL="../Prototype Pattern/PrototypePatternDemo Class/PrototypePatternDemo.lvclass"/>
-				</Item>
-			</Item>
 		</Item>
 		<Item Name="Structural" Type="Folder">
+			<Item Name="Adapter Pattern" Type="Folder">
+				<Item Name="Media Player Example" Type="Folder">
+					<Item Name="Advanced Media Player" Type="Folder">
+						<Item Name="AdvancedMediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Advanced Media Player/AdvancedMediaPlayer.lvclass"/>
+						<Item Name="Mp4Player.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Mp4Player/Mp4Player.lvclass"/>
+						<Item Name="VlcPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/VlcPlayer/VlcPlayer.lvclass"/>
+					</Item>
+					<Item Name="Media Player" Type="Folder">
+						<Property Name="NI.SortType" Type="Int">3</Property>
+						<Item Name="MediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Player/MediaPlayer.lvclass"/>
+						<Item Name="AudioPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Audio Player/AudioPlayer.lvclass"/>
+						<Item Name="MediaAdapter.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Adapter/MediaAdapter.lvclass"/>
+					</Item>
+					<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Bridge Pattern" Type="Folder">
 				<Item Name="AdvancedRemote Class" Type="Folder">
 					<Item Name="AdvancedRemote.lvclass" Type="LVClass" URL="../Bridge Pattern/AdvancedRemote Class/AdvancedRemote.lvclass"/>
@@ -130,22 +146,6 @@
 				</Item>
 				<Item Name="Tv Class" Type="Folder">
 					<Item Name="Tv.lvclass" Type="LVClass" URL="../Bridge Pattern/Tv Class/Tv.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Adapter Pattern" Type="Folder">
-				<Item Name="Media Player Example" Type="Folder">
-					<Item Name="Advanced Media Player" Type="Folder">
-						<Item Name="AdvancedMediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Advanced Media Player/AdvancedMediaPlayer.lvclass"/>
-						<Item Name="Mp4Player.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Mp4Player/Mp4Player.lvclass"/>
-						<Item Name="VlcPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/VlcPlayer/VlcPlayer.lvclass"/>
-					</Item>
-					<Item Name="Media Player" Type="Folder">
-						<Property Name="NI.SortType" Type="Int">3</Property>
-						<Item Name="MediaPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Player/MediaPlayer.lvclass"/>
-						<Item Name="AudioPlayer.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Audio Player/AudioPlayer.lvclass"/>
-						<Item Name="MediaAdapter.lvclass" Type="LVClass" URL="../Adapter Pattern/Media Player Example/Media Adapter/MediaAdapter.lvclass"/>
-					</Item>
-					<Item Name="Media Player Example.vi" Type="VI" URL="../Adapter Pattern/Media Player Example/Media Player Example.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Composite Pattern" Type="Folder">
@@ -175,35 +175,6 @@
 					<Item Name="Starbuzz Coffee.vi" Type="VI" URL="../Decorator Pattern/Starbuzz Coffee Example/Starbuzz Coffee.vi"/>
 				</Item>
 			</Item>
-			<Item Name="Filter Pattern" Type="Folder">
-				<Item Name="Application" Type="Folder">
-					<Item Name="Filter Pattern Demo.lvclass" Type="LVClass" URL="../Filter Pattern/Filter Pattern Demo Class/Filter Pattern Demo.lvclass"/>
-				</Item>
-				<Item Name="Criteria" Type="Folder">
-					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="Criteria.lvclass" Type="LVClass" URL="../Filter Pattern/Criteria Class/Criteria.lvclass"/>
-					<Item Name="AndCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/AndCriteria Class/AndCriteria.lvclass"/>
-					<Item Name="CriteriaFemale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaFemale Class/CriteriaFemale.lvclass"/>
-					<Item Name="CriteriaMale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaMale Class/CriteriaMale.lvclass"/>
-					<Item Name="OrCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/OrCriteria Class/OrCriteria.lvclass"/>
-					<Item Name="CiteriaSingle.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaSingle Class/CiteriaSingle.lvclass"/>
-				</Item>
-				<Item Name="Person" Type="Folder">
-					<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Flightweight Pattern" Type="Folder">
-				<Item Name="FlightweightPattern Demo" Type="Folder">
-					<Item Name="Flightweight Pattern Demo.lvclass" Type="LVClass" URL="../Flightweight Pattern/FlightweightPattern Demo Class/Flightweight Pattern Demo.lvclass"/>
-				</Item>
-				<Item Name="Shape" Type="Folder">
-					<Item Name="fwCircle.lvclass" Type="LVClass" URL="../Flightweight Pattern/Circle Class/fwCircle.lvclass"/>
-					<Item Name="fwShape.lvclass" Type="LVClass" URL="../Flightweight Pattern/Shape Class/fwShape.lvclass"/>
-				</Item>
-				<Item Name="ShapeFactory" Type="Folder">
-					<Item Name="fwShapeFactory.lvclass" Type="LVClass" URL="../Flightweight Pattern/ShapeFactory Class/fwShapeFactory.lvclass"/>
-				</Item>
-			</Item>
 			<Item Name="Facade Pattern" Type="Folder">
 				<Item Name="AudioMixer Class" Type="Folder">
 					<Item Name="AudioMixer.lvclass" Type="LVClass" URL="../Facade Pattern/AudioMixer Class/AudioMixer.lvclass"/>
@@ -231,6 +202,35 @@
 				</Item>
 				<Item Name="VideoFile Class" Type="Folder">
 					<Item Name="VideoFile.lvclass" Type="LVClass" URL="../Facade Pattern/VideoFile Class/VideoFile.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Filter Pattern" Type="Folder">
+				<Item Name="Application" Type="Folder">
+					<Item Name="Filter Pattern Demo.lvclass" Type="LVClass" URL="../Filter Pattern/Filter Pattern Demo Class/Filter Pattern Demo.lvclass"/>
+				</Item>
+				<Item Name="Criteria" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Criteria.lvclass" Type="LVClass" URL="../Filter Pattern/Criteria Class/Criteria.lvclass"/>
+					<Item Name="AndCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/AndCriteria Class/AndCriteria.lvclass"/>
+					<Item Name="CriteriaFemale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaFemale Class/CriteriaFemale.lvclass"/>
+					<Item Name="CriteriaMale.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaMale Class/CriteriaMale.lvclass"/>
+					<Item Name="OrCriteria.lvclass" Type="LVClass" URL="../Filter Pattern/OrCriteria Class/OrCriteria.lvclass"/>
+					<Item Name="CiteriaSingle.lvclass" Type="LVClass" URL="../Filter Pattern/CriteriaSingle Class/CiteriaSingle.lvclass"/>
+				</Item>
+				<Item Name="Person" Type="Folder">
+					<Item Name="Person.lvclass" Type="LVClass" URL="../Filter Pattern/Person Class/Person.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Flightweight Pattern" Type="Folder">
+				<Item Name="FlightweightPattern Demo" Type="Folder">
+					<Item Name="Flightweight Pattern Demo.lvclass" Type="LVClass" URL="../Flightweight Pattern/FlightweightPattern Demo Class/Flightweight Pattern Demo.lvclass"/>
+				</Item>
+				<Item Name="Shape" Type="Folder">
+					<Item Name="fwCircle.lvclass" Type="LVClass" URL="../Flightweight Pattern/Circle Class/fwCircle.lvclass"/>
+					<Item Name="fwShape.lvclass" Type="LVClass" URL="../Flightweight Pattern/Shape Class/fwShape.lvclass"/>
+				</Item>
+				<Item Name="ShapeFactory" Type="Folder">
+					<Item Name="fwShapeFactory.lvclass" Type="LVClass" URL="../Flightweight Pattern/ShapeFactory Class/fwShapeFactory.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Proxy Pattern" Type="Folder">
@@ -281,6 +281,17 @@
 				</Item>
 				<Item Name="Receiver" Type="Folder">
 					<Item Name="Stock.lvclass" Type="LVClass" URL="../Command Pattern/Stock Class/Stock.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Interpreter Pattern" Type="Folder">
+				<Item Name="Expression" Type="Folder">
+					<Item Name="Expression.lvclass" Type="LVClass" URL="../Interpreter Pattern/Expression Class/Expression.lvclass"/>
+					<Item Name="TerminalExpression.lvclass" Type="LVClass" URL="../Interpreter Pattern/TerminalExpression Class/TerminalExpression.lvclass"/>
+					<Item Name="AndExpression.lvclass" Type="LVClass" URL="../Interpreter Pattern/AndExpression Class/AndExpression.lvclass"/>
+					<Item Name="OrExpression.lvclass" Type="LVClass" URL="../Interpreter Pattern/OrExpression Class/OrExpression.lvclass"/>
+				</Item>
+				<Item Name="Application" Type="Folder">
+					<Item Name="InterpreterPatternDemo.lvclass" Type="LVClass" URL="../Interpreter Pattern/InterpreterPatternDemo Class/InterpreterPatternDemo.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Iterator Patttern" Type="Folder">
@@ -344,7 +355,7 @@
 				<Item Name="OperationSubtract.lvclass" Type="LVClass" URL="../Strategy Pattern/OperationSubtract Class/OperationSubtract.lvclass"/>
 				<Item Name="Strategy.lvclass" Type="LVClass" URL="../Strategy Pattern/Strategy Class/Strategy.lvclass"/>
 			</Item>
-			<Item Name="Template Pattern" Type="Folder">
+			<Item Name="Template Method Pattern" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Game.lvclass" Type="LVClass" URL="../Template Pattern/Game Class/Game.lvclass"/>
 				<Item Name="Cricket.lvclass" Type="LVClass" URL="../Template Pattern/Cricket Class/Cricket.lvclass"/>
@@ -380,7 +391,6 @@
 					<Item Name="NullPatternDemo.lvclass" Type="LVClass" URL="../Null Object Pattern/NullPatternDemo Class/NullPatternDemo.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Interpreter Pattern" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -388,6 +398,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

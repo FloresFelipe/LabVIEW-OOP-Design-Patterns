@@ -235,9 +235,7 @@
 			</Item>
 			<Item Name="Proxy Pattern" Type="Folder">
 				<Item Name="Globals" Type="Folder">
-					<Item Name="ConsoleOut.vi" Type="VI" URL="../Proxy Pattern/Globals/ConsoleOut.vi"/>
 					<Item Name="HashMap.ctl" Type="VI" URL="../Proxy Pattern/Globals/HashMap.ctl"/>
-					<Item Name="User Event Print.vi" Type="VI" URL="../Proxy Pattern/Globals/User Event Print.vi"/>
 				</Item>
 				<Item Name="Some Cool Media Library" Type="Folder">
 					<Item Name="ThirdPartyYoutubeLib.lvclass" Type="LVClass" URL="../Proxy Pattern/ThirdPartyYoutubeLib Class/ThirdPartyYoutubeLib.lvclass"/>
@@ -391,6 +389,10 @@
 					<Item Name="NullPatternDemo.lvclass" Type="LVClass" URL="../Null Object Pattern/NullPatternDemo Class/NullPatternDemo.lvclass"/>
 				</Item>
 			</Item>
+		</Item>
+		<Item Name="Console Out" Type="Folder">
+			<Item Name="User Event Print.vi" Type="VI" URL="../ConsoleOut/User Event Print.vi"/>
+			<Item Name="Console.vi" Type="VI" URL="../ConsoleOut/Console.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

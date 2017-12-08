@@ -132,9 +132,6 @@
 				<Item Name="BasicRemote Class" Type="Folder">
 					<Item Name="BasicRemote.lvclass" Type="LVClass" URL="../Bridge Pattern/BasicRemote Class/BasicRemote.lvclass"/>
 				</Item>
-				<Item Name="BridgePattern Class" Type="Folder">
-					<Item Name="BridgePatternDemo.lvclass" Type="LVClass" URL="../Bridge Pattern/BridgePattern Class/BridgePatternDemo.lvclass"/>
-				</Item>
 				<Item Name="Device Class" Type="Folder">
 					<Item Name="Device.lvclass" Type="LVClass" URL="../Bridge Pattern/Device Class/Device.lvclass"/>
 				</Item>
@@ -146,6 +143,9 @@
 				</Item>
 				<Item Name="Tv Class" Type="Folder">
 					<Item Name="Tv.lvclass" Type="LVClass" URL="../Bridge Pattern/Tv Class/Tv.lvclass"/>
+				</Item>
+				<Item Name="BridgePattern Class" Type="Folder">
+					<Item Name="BridgePatternDemo.lvclass" Type="LVClass" URL="../Bridge Pattern/BridgePattern Class/BridgePatternDemo.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Composite Pattern" Type="Folder">
@@ -305,7 +305,6 @@
 				<Item Name="ChatRoom.lvclass" Type="LVClass" URL="../Mediator Pattern/ChatRoom/ChatRoom.lvclass"/>
 				<Item Name="MediatorPatternDemo.lvclass" Type="LVClass" URL="../Mediator Pattern/MediatorPatternDemo Class/MediatorPatternDemo.lvclass"/>
 				<Item Name="User.lvclass" Type="LVClass" URL="../Mediator Pattern/User Class/User.lvclass"/>
-				<Item Name="Global.vi" Type="VI" URL="../Mediator Pattern/Support/Global.vi"/>
 			</Item>
 			<Item Name="Memento Pattern" Type="Folder">
 				<Item Name="CareTaker.lvclass" Type="LVClass" URL="../Memento Pattern/CareTaker Class/CareTaker.lvclass"/>
@@ -393,6 +392,7 @@
 		<Item Name="Console Out" Type="Folder">
 			<Item Name="User Event Print.vi" Type="VI" URL="../ConsoleOut/User Event Print.vi"/>
 			<Item Name="Console.vi" Type="VI" URL="../ConsoleOut/Console.vi"/>
+			<Item Name="Print Options.ctl" Type="VI" URL="../ConsoleOut/Print Options.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

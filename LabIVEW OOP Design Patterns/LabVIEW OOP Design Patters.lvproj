@@ -96,6 +96,12 @@
 				<Item Name="Application" Type="Folder">
 					<Item Name="PrototypePatternDemo.lvclass" Type="LVClass" URL="../Prototype Pattern/PrototypePatternDemo Class/PrototypePatternDemo.lvclass"/>
 				</Item>
+				<Item Name="HashMap" Type="Folder">
+					<Item Name="HashMap_Prototype.ctl" Type="VI" URL="../Prototype Pattern/HashMap/HashMap_Prototype.ctl"/>
+				</Item>
+				<Item Name="Prototype Factory" Type="Folder">
+					<Item Name="BundledShapeCache.lvclass" Type="LVClass" URL="../Prototype Pattern/BundledShapeCache Class/BundledShapeCache.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Singleton Pattern" Type="Folder">
 				<Item Name="Singleton Pattern Example" Type="Folder">

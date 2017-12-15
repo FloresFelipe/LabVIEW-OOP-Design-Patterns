@@ -30,7 +30,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536960</Property>
 	</Item>
 	<Item Name="getUserEvent.vi" Type="VI" URL="../getUserEvent.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!,6'6N='6S982V=G5!$U!+!!B)&gt;7VJ:'FU?1!!$U!+!!B1=G6T=X6S:1!!#E!B"6.U&lt;X!`!"J!5!!%!!5!"A!(!!A,6W6B&gt;'BF=E2B&gt;'%!&amp;%"Q!"E!!1!*#66T:8*&amp;&gt;G6O&gt;!!K1(!!(A!!%B"09H.F=H:F=CZM&gt;G.M98.T!!!-4W*T:8*W:8)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!3%%^C=W6S&gt;G6S,GRW9WRB=X-!!!N09H.F=H:F=C"J&lt;A"5!0!!$!!$!!1!#A!,!!1!"!!%!!1!$!!%!!1!$1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!Y!!!!!</Property>

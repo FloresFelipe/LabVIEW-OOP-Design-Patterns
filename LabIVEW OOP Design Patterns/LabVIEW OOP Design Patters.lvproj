@@ -326,6 +326,7 @@
 						<Item Name="ForecastDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/ForecastDisplay/ForecastDisplay.lvclass"/>
 						<Item Name="StatisticsDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/StatisticsDisplay/StatisticsDisplay.lvclass"/>
 						<Item Name="GeneralDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/GeneralDisplay/GeneralDisplay.lvclass"/>
+						<Item Name="CoolDisplay.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/CoolDisplay/CoolDisplay.lvclass"/>
 					</Item>
 					<Item Name="Observables" Type="Folder">
 						<Item Name="Observable.lvclass" Type="LVClass" URL="../Observer Pattern/Observer Pattern Example/Observable/Observable.lvclass"/>
@@ -407,6 +408,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
